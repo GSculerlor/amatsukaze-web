@@ -11,12 +11,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className='flex h-screen items-center grid-row-2 w-full place-content-stretch pl-44'>
+        <div className='flex h-screen items-center w-full place-content-stretch p-4 md:p-6 lg:p-[72px]'>
           <div>
-            <h1 className='text-on-surface font-normal text-5xl mb-6'>
-              <a>ganendra afrasya salsabilla.</a>
+            <h1 className='text-on-surface text-5xl mb-6'>
+              <a>(still) under development</a>
             </h1>
-            <p className='text-on-surface font-normal'>android engineer, hobbyist game developer, play a lot of rhythm game.</p>
+            <p className='text-on-surface text-base'>if you see this page, I’m probably still working (or rather too lazy to update) this page. 
+            in the meantime, why don't you check my <a href='https://blog.ganen.moe' className='font-semibold'>blog</a> to read something or maybe 
+            check my <a href='https://blog.ganen.moe' className='font-semibold'>github</a> profile to see what I'm currently working on.
+            </p>
           </div>
         </div>
       </main>
