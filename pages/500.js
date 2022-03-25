@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Default404() {
@@ -16,7 +17,7 @@ export default function Default404() {
             <h1 className='text-on-surface text-5xl mb-6'>
               <a>500 server-side error</a>
             </h1>
-            <p className='text-on-surface text-base'>shit went wrong eh? what about go <a href='/' className='font-semibold'>back</a>?</p>
+            <p className='text-on-surface text-base'>shit went wrong eh? what about go <Link href="/"><a className='font-semibold'>back</a></Link>?</p>
           </div>
         </div>
       </main>
