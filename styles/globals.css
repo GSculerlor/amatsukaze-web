@@ -4,10 +4,7 @@
 
 html,
 body {
-  background-image: linear-gradient(107.56deg, rgba(31, 40, 43, 0.86) 0%, rgba(31, 40, 43, 0.94) 19.87%, #1F282B 68.76%), url("/bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #151515;
   font-family: Outfit, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
